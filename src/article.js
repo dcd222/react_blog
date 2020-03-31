@@ -23,7 +23,7 @@ class Article extends React.Component{
     }
     render(){
         return(
-            <div className="container">123
+            <div className="container">
                 <header>
                     <h1>{this.state.article.title}</h1>
                     <span className="auther">作者：{this.state.article.auther}</span><span>时间：{this.state.article.date}</span>
